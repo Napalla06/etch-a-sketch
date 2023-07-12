@@ -1,0 +1,35 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rebeccapurple;
+}
+
+.game-play {
+  text-align: center;
+  font-size: 1.5em;
+  padding-bottom: 2rem;
+}
+
+.pad {
+  display: flex;
+  background-color: black;
+  width: 40rem;
+  height: 40rem;
+}
+
+.column {
+  border: 1px solid whitesmoke;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.row {
+  flex: 1;
+  border: 1px solid whitesmoke;
+}
+
+.active {
+  background-color: chartreuse;
+}
